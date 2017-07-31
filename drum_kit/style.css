@@ -11,10 +11,11 @@
   border: gray 2px solid;
   padding: 10px;
   border-radius: 10px;
-  transition: all 0.08s;
+  transition: all .08s;
 }
 
 .playing {
+  transform: scale(1.2);
   border: orange 2px solid;
   background-color: orange;
   color: white;
