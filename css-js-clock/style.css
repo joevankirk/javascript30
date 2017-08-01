@@ -13,8 +13,8 @@ body {
   border: 3px solid gray;
   border-radius: 50%;
   position: absolute;
-  height: 300px;
-  width: 300px;
+  height: 500px;
+  width: 500px;
 }
 .clock-face {
   position: relative;
@@ -27,9 +27,13 @@ body {
   background: black;
   position: absolute;
   top: 50%;
-  transition: all 0.05s;
+  transition: all 0.2s;
   transform-origin: 100%;
   transform: rotate(90deg);
-  transition-timing-function: cubic-bezier(0, 5.39, 0.58, 1);
+  transition-timing-function: cubic-bezier(0, 2.39, 0.58, 1);
+}
+.second-hand {
+  background-color: red;
+  height: 3px;
 }
 
